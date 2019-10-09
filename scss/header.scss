@@ -1,4 +1,3 @@
-@import "scss/config";
 
 * {
   padding: 0;
@@ -11,14 +10,11 @@
   box-sizing: inherit;
 }
 
-html { /* stylelint-disable-line */
-  box-sizing: border-box;
-  overflow-x: hidden;
 
   // TODO fleiri grunn stillingar
-}
+
 
 
 
 // TODO sækja allar sass skrár
-@import "scss/...";
+

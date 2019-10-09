@@ -4,7 +4,7 @@
   "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
   "main": "index.js",
   "scripts": {
-    "sass": "node-sass styles.scss styles.css"
+    "sass": "node-sass styles.scss styles.css -w"
   },
   "repository": {
     "type": "git",
