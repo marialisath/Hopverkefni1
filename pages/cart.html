@@ -24,14 +24,22 @@
     </div>
 
     <div class="form__cart">
-      <form class="form__sendingarupplysingar">
+      <form class="form__shipping-info">
+        <legend class="form__heading">Sendingarupplýsingar</legend>
         <fieldset>
+          Nafn: 
           <label>
             <input type="text" placeholder="Nafn" required />
-            <br />
+          </label>
+          <br />
+          Heimilisfang:
+          <label>
             <input type="text" placeholder="Heimilisfang" required />
-            <br />
-            <select id="postnumer">
+          </label>
+          <br />
+          Póstnúmer:
+          <label>
+            <select class="form__dropdown">
               <option value="postnumer" disabled selected>-Velja Póstnúmer-</option>
               <option value="101">101 Reykjavík</option>
               <option value="103">103 Reykjavík</option>
@@ -214,6 +222,55 @@
               <option value="881">881 Kirkjubæjarklaustri</option>
               <option value="900">900 Vestmannaeyjum</option>
               <option value="902">902 Vestmannaeyjum</option>
+            </select>
+          </label>
+        </fieldset>
+      </form>
+
+      <form class="payment-info">
+        <legend class="form__heading">Greiðsluupplýsingar</legend>
+        <fieldset>
+          Kortanúmer: 
+          <label>
+            <input
+              class="form__textfield"
+              type="text"
+              placeholder="Kortanúmer"
+              required
+            />
+          </label>
+          <br>
+          Korthafi: 
+          <label>
+            <input class="form__textfield" type="text" placeholder="Korthafi" required/>
+          </label>
+          <br>
+          Gildistími: 
+          <br>
+          Mán:
+          <label>
+            <select class="form__dropdown">
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </label>
+          Ár:
+          <label>
+            <select class="form__dropdown">
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
             </select>
           </label>
         </fieldset>
