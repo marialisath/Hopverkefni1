@@ -11,10 +11,31 @@
 }
 h1{
   font-size: 60px;
+  text-align: center;
+  padding-top: 16px;
 }
 .header{
   background-color: #ff5000;
-  height: 11em;
+  height: 9.5em;
+}
+.listi{
+  margin: 18px;
+  word-spacing: 23px;
+  font-weight: bold;
+}
+ul{
+  text-align: center;
+  font-size: 24px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+li{
+  display: inline-block;
+}
+li:hover{
+  text-decoration: underline;
 }
 
   // TODO fleiri grunn stillingar
