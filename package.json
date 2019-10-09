@@ -1,0 +1,22 @@
+{
+  "name": "hopverkefni1",
+  "version": "1.0.0",
+  "description": "Verkefnið felst í því að smíða vef eftir forskrift.",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass styles.scss styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marialisath/Hopverkefni1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marialisath/Hopverkefni1/issues"
+  },
+  "homepage": "https://github.com/marialisath/Hopverkefni1#readme",
+  "dependencies": {
+    "node-sass": "^4.12.0"
+  }
+}
