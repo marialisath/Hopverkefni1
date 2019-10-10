@@ -12,10 +12,13 @@
   }
 
   .footer {
-    background-color: #00b7ff;
+    background-color: $color-blue;
     height: 20em;
   }
   
   .footer__title {
     font-family: $font-heading;
+    margin-bottom: $gutter;
+    color: $color-black;
   }
+
