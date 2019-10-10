@@ -1,5 +1,7 @@
+@import 'config';
 
-  .form__cart {
-      padding: 1em;
-      text-align: center;
+.cart {
+    max-width: $max-width;
+    padding-right: $gutter;
+    padding-left: $gutter;
   }
