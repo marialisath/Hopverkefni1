@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -9,40 +8,42 @@
 *::after {
   box-sizing: inherit;
 }
-h1{
+
+.header__title {
   font-size: 60px;
   text-align: center;
   padding-top: 16px;
-  font-family: 'Oswald', sans-serif;
+  font-family: "Oswald", sans-serif;
 }
-.header{
+
+.header {
   background-color: #ff5000;
-  height: 9.5em;
+  height: 10em;
 }
-.header__list{
+
+.header__menu {
   margin: 18px;
-  word-spacing: 23px;
+  word-spacing: 2em;
   font-weight: bold;
+  padding-bottom: 1em;
 }
-ul{
+
+.header__list {
   text-align: center;
   font-size: 24px;
 }
-a{
+
+a {
   text-decoration: none;
   color: inherit;
 }
-li{
+.list__item {
   display: inline-block;
 }
-li:hover{
+.list__item:hover {
   text-decoration: underline;
 }
 
-  // TODO fleiri grunn stillingar
-
-
-
+// TODO fleiri grunn stillingar
 
 // TODO sækja allar sass skrár
-

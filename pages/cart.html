@@ -3,23 +3,27 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Prílihúsið</title>
-
-    <link rel="stylesheet" href="grid.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <title>Prílihúsið - karfa</title>
+    <link rel="stylesheet" href="../grid.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="header">
-      <div>
-        <h1>Prílihúsið</h1>
-        <div class="listi">
-          <ul>
-            <li><a href="index.html">Forsíða</a></li>
-            <li><a href="pages/products.html">Vörur</a></li>
-            <li><a href="pages/course.html">Námskeið</a></li>
-            <li><a href="pages/staff.html">Starfsfólk</a></li>
-          </ul>
-        </div>
+      <h1 class="header__title">Prílihúsið</h1>
+      <div class="header__menu">
+        <ul class="header__list">
+          <li class="list__item"><a href="../index.html">Forsíða</a></li>
+          <li class="list__item"><a href="products.html">Vörur</a></li>
+          <li class="list__item"><a href="course.html">Námskeið</a></li>
+          <li class="list__item"><a href="staff.html">Starfsfólk</a></li>
+          <li class="timabundid ma eyda seinna">
+            <a href="cart.html">Innkaupakarfa</a>
+          </li>
+        </ul>
       </div>
     </div>
 
@@ -27,7 +31,7 @@
       <form class="form__shipping-info">
         <legend class="form__heading">Sendingarupplýsingar</legend>
         <fieldset>
-          Nafn: 
+          Nafn:
           <label>
             <input type="text" placeholder="Nafn" required />
           </label>
@@ -40,7 +44,9 @@
           Póstnúmer:
           <label>
             <select class="form__dropdown">
-              <option value="postnumer" disabled selected>-Velja Póstnúmer-</option>
+              <option value="postnumer" disabled selected
+                >-Velja Póstnúmer-</option
+              >
               <option value="101">101 Reykjavík</option>
               <option value="103">103 Reykjavík</option>
               <option value="104">104 Reykjavík</option>
@@ -230,7 +236,7 @@
       <form class="payment-info">
         <legend class="form__heading">Greiðsluupplýsingar</legend>
         <fieldset>
-          Kortanúmer: 
+          Kortanúmer:
           <label>
             <input
               class="form__textfield"
@@ -239,14 +245,19 @@
               required
             />
           </label>
-          <br>
-          Korthafi: 
+          <br />
+          Korthafi:
           <label>
-            <input class="form__textfield" type="text" placeholder="Korthafi" required/>
+            <input
+              class="form__textfield"
+              type="text"
+              placeholder="Korthafi"
+              required
+            />
           </label>
-          <br>
-          Gildistími: 
-          <br>
+          <br />
+          Gildistími:
+          <br />
           Mán:
           <label>
             <select class="form__dropdown">
