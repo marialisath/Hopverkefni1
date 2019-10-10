@@ -14,11 +14,35 @@
   .footer {
     background-color: $color-blue;
     height: 20em;
-  }
+    width: 100%;
+    display: flex;
   
-  .footer__title {
-    font-family: $font-heading;
-    margin-bottom: $gutter;
-    color: $color-black;
-  }
+    &__grid {
+      max-width: $max-width;
+    }
+    
+    &__title {
+      font-family: $font-heading;
+      margin-bottom: $gutter;
+      color: $color-black;
+      font-weight: bold;
+    }
+
+    &__item {
+      color: $color-white;
+      transition: color $transition;
+
+      &:hover {
+        color: $color-black;
+      }
+    }
+    
+    &__copyright {
+      text-align: center;
+      width: 100%;
+      font-family: $font-main;
+      font-size: 0.75em;
+    }
+}
+
 
