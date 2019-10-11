@@ -2,7 +2,7 @@
 $font-heading: "Oswald", sans-serif;
 $font-main: 'Open Sans', sans-serif;
 
-/*Litir*/
+// Litir
 $color-black: #000000;
 $color-white: #fffcf2;
 $color-orange: #ff5000;
@@ -13,3 +13,10 @@ $max-width: 1200px;
 $gutter: 20px;
 
 $transition: 200ms ease-in-out;
+
+@mixin row() {
+    display: flex;
+  
+    margin-right: -($gutter / 2);
+    margin-left: -($gutter / 2);
+  }

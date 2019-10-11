@@ -14,11 +14,23 @@
   .footer {
     background-color: $color-blue;
     height: 20em;
-    width: 100%;
     display: flex;
+    
   
     &__grid {
       max-width: $max-width;
+      margin: 0 auto;
+      padding-top: $gutter * 2;
+      padding-bottom: $gutter * 2;
+    }
+
+    &__row {
+      margin-bottom: $gutter * 2;
+      @include row;
+    }
+
+    &__col {
+      margin-bottom: 0;
     }
     
     &__title {
@@ -31,6 +43,7 @@
     &__item {
       color: $color-white;
       transition: color $transition;
+      list-style-type: none;
 
       &:hover {
         color: $color-black;
@@ -42,6 +55,7 @@
       width: 100%;
       font-family: $font-main;
       font-size: 0.75em;
+      padding-bottom: $gutter*2;
     }
 }
 
