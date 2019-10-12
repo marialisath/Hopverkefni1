@@ -9,14 +9,10 @@ $color-orange: #ff5000;
 $color-blue: #00b7ff;
 
 $max-width: 1200px;
-
 $gutter: 20px;
 
 $transition: 200ms ease-in-out;
 
 @mixin row() {
     display: flex;
-  
-    margin-right: -($gutter / 2);
-    margin-left: -($gutter / 2);
   }

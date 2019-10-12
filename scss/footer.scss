@@ -14,7 +14,6 @@
   .footer {
     background-color: $color-blue;
     height: 20em;
-    display: flex;
     
   
     &__grid {
@@ -27,6 +26,8 @@
     &__row {
       margin-bottom: $gutter * 2;
       @include row;
+      flex-wrap: wrap;
+      justify-content: space-around;
     }
 
     &__col {
@@ -40,10 +41,20 @@
       font-weight: bold;
     }
 
+    &__list {
+      padding: $gutter 0;
+      list-style-type: none;
+    }
+
     &__item {
+      margin-bottom: $gutter * 0.5;
+    }
+    
+    &__link {
       color: $color-white;
       transition: color $transition;
-      list-style-type: none;
+      text-decoration: none;
+    
 
       &:hover {
         color: $color-black;
@@ -52,11 +63,8 @@
     
     &__copyright {
       text-align: center;
-      width: 100%;
       font-family: $font-main;
       font-size: 0.75em;
-      padding-bottom: $gutter*2;
     }
 }
-
 
