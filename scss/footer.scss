@@ -14,8 +14,6 @@
   .footer {
     background-color: $color-blue;
     height: 20em;
-    
-    
   
     &__grid {
       max-width: $max-width;
@@ -56,7 +54,6 @@
       transition: color $transition;
       text-decoration: none;
     
-
       &:hover {
         color: $color-black;
       }
