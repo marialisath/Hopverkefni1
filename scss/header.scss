@@ -11,9 +11,22 @@
   box-sizing: inherit;
 }
 
+.header__title {
+  font-size: 3.5em;
+  text-align: center;
+  font-family: $font-heading;
+}
+
 .header {
   background-color: $color-orange;
   height: 10em;
+}
+
+.header__menu {
+  margin: 1.2em;
+  word-spacing: 1em;
+  font-weight: bold;
+}
 
   &__title {
     font-size: 3.5em;
@@ -23,7 +36,7 @@
   }
 
   &__menu {
-    margin: 1.2em;
+    margin: 0.4em;
     word-spacing: 2em;
     font-weight: bold;
     padding-bottom: 1em;
@@ -46,7 +59,7 @@
       text-decoration: underline;
     }
   }
-}
+
 
 // TODO fleiri grunn stillingar
 
