@@ -11,40 +11,41 @@
   box-sizing: inherit;
 }
 
-.header__title {
-  font-size: 3.5em;
-  text-align: center;
-  padding-top: 0.5em;
-  font-family: $font-heading;
-}
-
 .header {
   background-color: $color-orange;
   height: 10em;
-}
 
-.header__menu {
-  margin: 1.2em;
-  word-spacing: 2em;
-  font-weight: bold;
-  padding-bottom: 1em;
-}
+  &__title {
+    font-size: 3.5em;
+    text-align: center;
+    padding-top: 0.5em;
+    font-family: $font-heading;
+  }
 
-.header__list {
-  text-align: center;
-  font-size: 1.5em;
-}
+  &__menu {
+    margin: 1.2em;
+    word-spacing: 2em;
+    font-weight: bold;
+    padding-bottom: 1em;
+  }
 
-a {
-  text-decoration: none;
-  color: inherit;
+  	&__list {
+    text-align: center;
+    font-size: 1.5em;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
 }
-.list__item {
-  display: inline-block;
-}
-.list__item:hover {
-  color: $color-white;
-  text-decoration: underline;
+  &__item {
+    display: inline-block;
+
+    &__item:hover {
+      color: $color-white;
+      text-decoration: underline;
+    }
+  }
 }
 
 // TODO fleiri grunn stillingar
