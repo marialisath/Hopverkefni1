@@ -1,6 +1,13 @@
 @import "config";
 
 .card__main{
-    display: flex;
+    overflow: auto;
+}
+.main__text-1{
+    float: right;
     
 }
+.main__img-1{
+    display: flex;
+}
+
