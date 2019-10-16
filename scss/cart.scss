@@ -1,1 +1,34 @@
 @import 'config';
+
+.content--row {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+}
+.cart__title {
+    margin-left: 2.5em;
+    margin-bottom: 1em;
+}
+
+.product__title {
+    padding-bottom: 1em;
+}
+
+.product__text {
+    padding-bottom: 5em;
+}
+
+.content__text {
+    position: relative;
+}
+
+.product__price {
+    position: absolute;
+    bottom: 0;
+    vertical-align: bottom;
+    margin-bottom: 3em;
+}
+
+.product__price--number {
+    font-weight: bold;
+}
