@@ -54,7 +54,7 @@
       transition: color $transition;
       text-decoration: none;
     
-      &:hover {
+      &__link:hover {
         color: $color-black;
       }
     }
