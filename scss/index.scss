@@ -1,16 +1,19 @@
 @import "config";
 
-.card__1{
-    display: flex;
-    flex-direction: row-reverse;
-}
-.main__text-1{
+.card__1 {
+  display: flex;
+  flex-direction: row-reverse;
+
+  &__text-1 {
     align-self: center;
-}
-h2{
-    font-family: $font-heading;
-}
-.main__image-1{
+  }
+
+  &__image-1 {
     padding-top: 40px;
     padding-left: 30px;
+  }
+}
+
+h2 {
+  font-family: $font-heading;
 }
