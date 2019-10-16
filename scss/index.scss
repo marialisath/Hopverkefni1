@@ -17,10 +17,12 @@
     flex-direction: row-reverse;
   }
   &__text {
-    align-self: center;
     font-family: $font-main;
     padding: $gutter /2;
     flex-grow: 1;
+  }
+  &__text > p{
+    padding-bottom: $gutter *2;
   }
   &__image {
     display: flex;
@@ -36,4 +38,6 @@
 
 h2 {
   font-family: $font-heading;
+  padding-bottom: $gutter *2;
 }
+
