@@ -1,19 +1,33 @@
 @import "config";
 
-.card__1 {
+.cards {
   display: flex;
-  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding: $gutter;
+}
 
-  &__text-1 {
-    align-self: center;
+.card {
+  display: flex;
+  max-width:$max-width;
+
+  &--reversed {
+    flex-direction: row-reverse;
   }
-
-  &__image-1 {
-    padding-top: 40px;
-    padding-left: 30px;
+  &__text {
+    align-self: center;
+    font-family: $font-main;
+  }
+  &__image {
+    
   }
 }
 
 h2 {
   font-family: $font-heading;
+}
+button {
+  background-color: $color-blue;
+  color: $color-black;
+  border: none;
+  font-family: $font-main;
 }
