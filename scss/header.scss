@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 
-  &__title {
+  .header__title {
     font-size: 3.5em;
     text-align: center;
     padding-top: 0.5em;
@@ -53,12 +53,13 @@
 }
   &__item {
     display: inline-block;
+  }
 
     &__item:hover {
       color: $color-white;
       text-decoration: underline;
     }
-  }
+  
 
 
 // TODO fleiri grunn stillingar
