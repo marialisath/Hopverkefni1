@@ -55,11 +55,12 @@
       color: $color-white;
       transition: color $transition;
       text-decoration: none;
-    
-      &__link:hover {
+      
+      &:hover {
         color: $color-black;
       }
     }
+    
     
     &__copyright {
       font-family: $font-main;
