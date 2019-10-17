@@ -15,23 +15,23 @@
     background-color: $color-blue;
     height: 20em;
     width: 100%;
-    //margin: 0 auto;
+    margin: auto;
     @include row;
     flex-flow: row;
     flex-direction: column;
-    padding: $gutter * 1.5;
 
     &__row {
-      //margin-bottom: $gutter;
+      margin-bottom: $gutter;
       @include row;
       flex-wrap: nowrap;
       width: 100%;
       justify-content: space-evenly;
-      padding-right: 15em;
+      padding-right: 10em;
     }
 
     &__col {
       padding-right: $gutter;
+      
     }
     
     &__title {
