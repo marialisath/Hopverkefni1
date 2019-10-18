@@ -1,1 +1,7 @@
 @import "config";
+
+.products {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+}
