@@ -1,22 +1,37 @@
 @import "config";
 
-.products__row {
+.products {
     display: flex;
-    flex-flow: row;
-}
+    padding: 1.250em;
+    justify-content: center;
+    align-content: center;
 
-.products__button {
-    background-image: url("img/cart.svg");
-    background-repeat: no-repeat;
-    background-size: 20px;
-    background-position: 0.625em 50%;
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: $max-width;
+    }
 
-    border: 1px solid $color-black;
-    border-radius: 3px;
+    &__col {
+        display: flex;
+        width: 32%;
+        margin: 20px 0;
+    }
 
-    padding: 0.625em;
-    padding-left: 2.5em;
+    &__button {
+        background-image: url("img/cart.svg");
+        background-repeat: no-repeat;
+        background-size: 20px;
+        background-position: 0.625em 50%;
 
-    font-size: 1em;
-    cursor: pointer;
+        border: 1px solid $color-black;
+        border-radius: 3px;
+
+        padding: 0.625em;
+        padding-left: 2.5em;
+
+        font-size: 1em;
+        cursor: pointer;
+    }
 }
