@@ -15,19 +15,24 @@
     }
 
     &__col {
-        display: flex;
         width: 32%;
         margin: 20px 0;
     }
 
-    &__title {
-        font-weight: bold;
-    }
-
     &__form form input {
         border: solid 1px $color-black;
-        border-radius: 5px;
+        border-radius: 3px;
         padding: 0.625em;
+        width: 60%;
+        height: 3em;
+    }
+
+    &__description {
+        padding-bottom: 1em;
+    }
+
+    &__price {
+        padding-bottom: 1em;
     }
 
     &__button {
@@ -41,8 +46,12 @@
 
         padding: 0.625em;
         padding-left: 2.5em;
-
         font-size: 1em;
         cursor: pointer;
+        transition: $transition;
+
+        &:hover {
+            background-color: $color-blue;
+          }
     }
 }
