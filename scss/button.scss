@@ -9,7 +9,6 @@
     padding: $gutter /2;
   }
 
-
 .products__button {
   background-image: url("img/cart.svg");
   background-repeat: no-repeat;
@@ -25,7 +24,7 @@
   cursor: pointer;
   transition: $transition;
 
-    &:hover {
-        background-color: $color-blue;
-      }
+  &:hover {
+      background-color: $color-blue;
+    }
 }
