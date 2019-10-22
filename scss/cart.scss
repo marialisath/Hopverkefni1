@@ -1,9 +1,11 @@
 @import "config";
 
 .cart {
+  max-width: $max-width;
+  margin: 0 auto;
+
   &__title {
     margin-top: $gutter * 2;
-    margin-left: $gutter * 3;
     margin-bottom: $gutter;
     font-size: 2.5em;
   }
@@ -11,25 +13,22 @@
 
 .product {
   margin: $gutter * 3;
+  display: flex;
+  flex-direction: column;
 
   &__title {
-    padding-bottom: 1em;
+    margin-bottom: $gutter * 0.5;
+    font-family: $font-heading;
+    font-size: 2em;
   }
 
-  &__text {
-    padding-bottom: 5em;
+  &__image {
+    margin-bottom: $gutter;
   }
 
-}
-
-.content {
-
-  &__row {
+  &__content {
     display: flex;
-    flex-flow: row;
-    margin: auto;
-  }
-  &__text {
-    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
