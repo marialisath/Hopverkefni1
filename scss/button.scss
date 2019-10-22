@@ -6,9 +6,10 @@
     border: none;
     border-radius: 3px;
     font-family: $font-main;
-    padding: $gutter /2;
+    font-size: 1em;
+    padding: $gutter / 2;
+    padding-right: $gutter * 2;
   }
-
 
 .products__button {
   background-image: url("img/cart.svg");
@@ -25,7 +26,7 @@
   cursor: pointer;
   transition: $transition;
 
-    &:hover {
-        background-color: $color-blue;
-      }
+  &:hover {
+      background-color: $color-blue;
+    }
 }

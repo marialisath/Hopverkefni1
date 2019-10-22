@@ -1,1 +1,32 @@
 @import "config";
+
+.course {
+    max-width:$max-width;
+    margin: auto;
+    padding-bottom: $gutter * 2;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-between;
+
+    &__col {
+        max-width: (($max-width/2) - ($gutter/2));
+
+    }
+    
+    &__title {
+        padding-top: $gutter * 2;
+        font-size: 2em;
+        font-weight: bold;
+    }
+    
+    &__text {
+        font-family: $font-main;
+        font-size: 1.5em;
+    }
+    
+    &__image {
+        padding-top: $gutter * 1.5;
+    }
+
+}
+

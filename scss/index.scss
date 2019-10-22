@@ -1,43 +1,43 @@
 @import "config";
 
+h2 {
+  font-family: $font-heading;
+  padding-bottom: $gutter *2;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;
   max-width:$max-width;
   margin: auto;
-  padding-bottom: $gutter *2;
+  padding-bottom: $gutter * 2;
 }
 
 .card {
   display: flex;
   justify-content: space-between;
-  padding-top: $gutter *2;
+  padding-top: $gutter * 2;
+  width: 100%;
 
   &--reversed {
     flex-direction: row-reverse;
   }
+
   &__text {
     font-family: $font-main;
-    padding: $gutter /2;
+    padding: $gutter;
     flex-grow: 1;
   }
-  &__text > p{
-    padding-bottom: $gutter *2;
+  
+  &__text > p {
+    padding-bottom: $gutter * 2;
   }
+  
   &__image {
     display: flex;
-    max-width: 50%;
+    max-width: 49%;
   }
 }
 
-@media(max-width: $max-width) {
-    .card {
-        
-    }
-}
 
-h2 {
-  font-family: $font-heading;
-  padding-bottom: $gutter *2;
-}
 
