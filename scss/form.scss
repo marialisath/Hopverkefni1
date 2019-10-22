@@ -1,11 +1,14 @@
 @import "config";
 
 .form {
-  margin-bottom: $gutter * 2;
+  display: flex;
+  margin: auto;
+  border: none;
 
   &__heading {
-    font-family: $font-heading;
-    font-size: 2em;
-    margin-bottom: $gutter;
-  }
+      font-family: $font-heading;
+      font-weight: bold;
+      font-size: 2em;
+      margin-bottom: $gutter;
+    }
 }
