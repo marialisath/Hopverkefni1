@@ -9,7 +9,11 @@
     margin-bottom: $gutter;
     font-size: 2.5em;
   }
+
+  &__form {
+  }
 }
+
 
 .product {
   margin: $gutter * 3;
@@ -31,4 +35,11 @@
     flex-direction: column;
     justify-content: space-between;
   }
+}
+
+.content__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: $gutter;
 }
