@@ -20,16 +20,6 @@
     padding-bottom: 5em;
   }
 
-  &__price {
-    position: absolute;
-    bottom: 0;
-    vertical-align: bottom;
-    margin-bottom: 3em;
-  }
-
-  &__price--number {
-    font-weight: bold;
-  }
 }
 
 .content {
@@ -41,14 +31,5 @@
   }
   &__text {
     position: relative;
-  }
-}
-
-.form {
-  display: flex;
-  flex-direction: column;
-  &__shipping{
-  }
-  &__payment {
   }
 }
