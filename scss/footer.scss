@@ -21,6 +21,7 @@
     flex-direction: column;
 
     &__row {
+      display:flex;
       margin-bottom: $gutter;
       @include row;
       flex-wrap: nowrap;
@@ -29,9 +30,9 @@
       padding-right: 10em;
     }
 
+
     &__col {
       padding-right: $gutter;
-      
     }
     
     &__title {
