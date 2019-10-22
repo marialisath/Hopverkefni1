@@ -1,40 +1,53 @@
-@import 'config';
+@import "config";
 
-.content--row {
-    display: flex;
-    flex-flow: row;
-    margin: auto;
-}
-.cart__title {
+.cart {
+  &__title {
     margin-top: $gutter * 2;
     margin-left: $gutter * 3;
     margin-bottom: $gutter;
     font-size: 2.5em;
+  }
+
 }
 
-.product__title {
+.product {
+  display: flex;
+  margin: $gutter * 3;
+  flex-flow: column;
+
+  &__title {
     padding-bottom: 1em;
-}
+  }
 
-.product__text {
+  &__text {
     padding-bottom: 5em;
-}
+  }
 
-.content__text {
-    position: relative;
-}
-
-.product__price {
+  &__price {
     position: absolute;
     bottom: 0;
     vertical-align: bottom;
     margin-bottom: 3em;
-}
+  }
 
-.product__price--number {
+  &__price--number {
     font-weight: bold;
+  }
 }
 
-.product__image--img {
-    
+.content__row {
+  display: flex;
+  align-items: flex-start;
+
+  &__row {
+    display: flex;
+    flex-flow: row;
+    margin: auto;
+  }
+  &__text {
+    position: relative;
+  }
+}
+
+.form__cart {
 }
