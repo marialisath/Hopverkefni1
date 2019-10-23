@@ -7,128 +7,139 @@
 
     <link rel="stylesheet" href="../grid.css" />
     <link rel="stylesheet" href="../styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="header">
       <h1 class="header__title">Prílihúsið</h1>
       <div class="header__menu">
         <ul class="header__list">
-          <li class="header__item"><a href="../index.html" class="header__link">Forsíða</a></li>
-          <li class="header__item"><a href="products.html" class="header__link">Vörur</a></li>
-          <li class="header__item__current"><a href="course.html" class="header__link">Námskeið</a></li>
-          <li class="header__item"><a href="staff.html" class="header__link">Starfsfólk</a></li>
+          <li class="header__item">
+            <a href="../index.html" class="header__link">Forsíða</a>
+          </li>
+          <li class="header__item">
+            <a href="products.html" class="header__link">Vörur</a>
+          </li>
+          <li class="header__item__current">
+            <a href="course.html" class="header__link">Námskeið</a>
+          </li>
+          <li class="header__item">
+            <a href="staff.html" class="header__link">Starfsfólk</a>
+          </li>
         </ul>
         <div class="header__basket">
-          <img class="header__basket--img" src="../img/cart.svg">
+          <img class="header__basket--img" src="../img/cart.svg" />
           <a class="header__basket--link" href="cart.html">Karfa(6)</a>
         </div>
       </div>
     </div>
-        
+
     <div class="course">
       <div class="course__col">
         <h2 class="course__title">Námskeið</h2>
-          <p class="course__text">Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra
+        <p class="course__text">
+          Prílihúsið býður upp á fjölbreytt námskeið fyrir byrjendur og lengra
           komna. Námskeiðin eru kennd af engri annarri en Karítas Pétursdóttur.
-          Fyrir fólk á öllum aldri. Skráðu þig núna!</p>
+          Fyrir fólk á öllum aldri. Skráðu þig núna!
+        </p>
       </div>
       <div class="course__col">
         <div class="course__image">
-          <img src="../img/climbing-gym.jpg"/>
+          <img src="../img/climbing-gym.jpg" />
         </div>
       </div>
     </div>
-    
-    <div class="course"> 
-      <div class="course__col">
-        <form class="course__form">
-          <legend class="form__heading">Almennar upplýsingar</legend>
-          <fieldset>
-            Nafn:
-            <label>
-              <input type="text" placeholder="Nafn" required />
-            </label>
-            <br />
-            Heimilisfang:
-            <label>
-              <input type="text" placeholder="Heimilisfang" required />
-            </label>
-            <br />
-            Aldur:
-            <label>
-              <input type="text" placeholder="Aldur" required />
-            </label>
-            <br />
-            Námskeið: 
+
+    <div class="form">
+      <form class="form__col">
+        <legend class="form__heading">Almennar upplýsingar</legend>
+        <fieldset>
+          Nafn:
+          <label>
+            <input type="text" placeholder="Nafn" required />
+          </label>
+          <br />
+          Heimilisfang:
+          <label>
+            <input type="text" placeholder="Heimilisfang" required />
+          </label>
+          <br />
+          Aldur:
+          <label>
+            <input type="text" placeholder="Aldur" required />
+          </label>
+          <br />
+          Námskeið:
+          <select class="form__dropdown">
+            <option value="courses" disabled selected>-Veldu Námskeið-</option>
+            <option value="1">V0 - V1</option>
+            <option value="2">V2 - V4</option>
+            <option value="3">V5 - V7</option>
+            <option value="4">Krakkanámskeið</option>
+            <option value="5">Fjallaklifur</option>
+          </select>
+        </fieldset>
+      </form>
+      <form class="form__col">
+        <legend class="form__heading">Greiðsluupplýsingar</legend>
+        <fieldset>
+          Kortanúmer:
+          <label>
+            <input
+              class="form__textfield"
+              type="text"
+              placeholder="Kortanúmer"
+              required
+            />
+          </label>
+          <br />
+          Korthafi:
+          <label>
+            <input
+              class="form__textfield"
+              type="text"
+              placeholder="Korthafi"
+              required
+            />
+          </label>
+          <br />
+          Gildistími:
+          <br />
+          Mán:
+          <label>
             <select class="form__dropdown">
-              <option value="courses" disabled selected>-Veldu Námskeið-</option>
-              <option value="1">V0 - V1</option>
-              <option value="2">V2 - V4</option>
-              <option value="3">V5 - V7</option>
-              <option value="4">Krakkanámskeið</option>
-              <option value="5">Fjallaklifur</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
             </select>
-          </fieldset>
-        </form>
-      </div>
-      <div class="course__col">
-        <form class="course__form">
-          <legend class="form__heading">Greiðsluupplýsingar</legend>
-          <fieldset>
-            Kortanúmer:
-            <label>
-              <input
-                class="form__textfield"
-                type="text"
-                placeholder="Kortanúmer"
-                required
-              />
-            </label>
-            <br />
-            Korthafi:
-            <label>
-              <input
-                class="form__textfield"
-                type="text"
-                placeholder="Korthafi"
-                required
-              />
-            </label>
-            <br />
-            Gildistími:
-            <br />
-            Mán:
-            <label>
-              <select class="form__dropdown">
-                <option value="01">01</option>
-                <option value="02">02</option>
-                <option value="03">03</option>
-                <option value="04">04</option>
-                <option value="05">05</option>
-                <option value="06">06</option>
-                <option value="07">07</option>
-                <option value="08">08</option>
-                <option value="09">09</option>
-                <option value="10">10</option>
-                <option value="11">11</option>
-                <option value="12">12</option>
-              </select>
-            </label>
-            Ár:
-            <label>
-              <select class="form__dropdown">
-                <option value="2019">2019</option>
-                <option value="2020">2020</option>
-                <option value="2021">2021</option>
-                <option value="2022">2022</option>
-              </select>
-            </label>
-          </fieldset>
-        </form>
-        </div>
-      </div>
+          </label>
+          Ár:
+          <label>
+            <select class="form__dropdown">
+              <option value="2019">2019</option>
+              <option value="2020">2020</option>
+              <option value="2021">2021</option>
+              <option value="2022">2022</option>
+            </select>
+          </label>
+        </fieldset>
+      </form>
     </div>
 
     <div class="footer">
@@ -136,45 +147,83 @@
         <div class="footer__col">
           <h2 class="footer__title">Vöruflokkar</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Nauðsynjavörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Frábærar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Ómissandi vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Ótrúlegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Magnaðar vörur</a></li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Nauðsynjavörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Frábærar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Ómissandi vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Ótrúlegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Magnaðar vörur</a>
+            </li>
           </ul>
         </div>
         <div class="footer__col">
           <h2 class="footer__title">Vöruflokkar</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Trylltar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Geggjaðar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Svakalegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Fáránlegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Klikkaðar vörur</a></li>
-            </ul>
-          </div>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Trylltar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Geggjaðar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Svakalegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Fáránlegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Klikkaðar vörur</a>
+            </li>
+          </ul>
+        </div>
         <div class="footer__col">
           <h2 class="footer__title">Námskeið</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="course.html" class="footer__link">V0 - V1 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">V2 - V4 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">V5 - V7 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">Fjallaklifur námskeið</a></li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V0 - V1 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V2 - V4 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V5 - V7 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link"
+                >Fjallaklifur námskeið</a
+              >
+            </li>
           </ul>
         </div>
         <div class="footer__col">
           <h2 class="footer__title">Síður</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Allar vörur</a></li>
-            <li class="footer__item"><a href="staff.html" class="footer__link">Starfsfólk</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">Námskeið</a></li>
-            <li class="footer__item"><a href="cart.html" class="footer__link">Karfa</a></li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Allar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="staff.html" class="footer__link">Starfsfólk</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">Námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="cart.html" class="footer__link">Karfa</a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="footer__copyright">
         © 2019 Prílihúsið
       </div>
-  </div>
+    </div>
   </body>
 </html>

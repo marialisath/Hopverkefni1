@@ -3,16 +3,18 @@
 .form {
   max-width: $max-width;
   margin: auto;
-  border: white;
+  justify-content: space-between;
+  max-width: $max-width;
+  
+
+  &__col {
+    border: none;
+  }
 
   &__heading {
       font-family: $font-heading;
       font-weight: bold;
       font-size: 2em;
       margin-bottom: $gutter;
-    }
-
-    &__row {
-    
-    }
+  }
 }

@@ -38,11 +38,13 @@ h2 {
     max-width: 49%;
   }
 }
+
 @media screen and (max-width: 800px){
     .card{
     margin: 20px;
     }
 }
+
 @media screen and (max-width:500px){
     .card{
         justify-content: space-evenly;
@@ -53,6 +55,7 @@ h2 {
     &__text{
         padding: auto;
     }
+  } 
 }
 
 
