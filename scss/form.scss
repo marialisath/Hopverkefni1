@@ -1,14 +1,17 @@
 @import "config";
 
 .form {
-  display: flex;
+  max-width: $max-width;
   margin: auto;
-  border: none;
 
   &__heading {
       font-family: $font-heading;
       font-weight: bold;
       font-size: 2em;
       margin-bottom: $gutter;
+    }
+
+    &__row {
+    
     }
 }
