@@ -3,12 +3,18 @@
 .form {
   display: flex;
   margin: auto;
-  border: none;
+  justify-content: space-between;
+  max-width: $max-width;
+  
+
+  &__col {
+    border: none;
+  }
 
   &__heading {
       font-family: $font-heading;
       font-weight: bold;
       font-size: 2em;
       margin-bottom: $gutter;
-    }
+  }
 }

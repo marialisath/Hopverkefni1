@@ -19,6 +19,13 @@
     @include row;
     flex-flow: row;
     flex-direction: column;
+    
+    @media(max-width: 800px) {
+
+      &__row {
+        flex-direction: column;
+      }
+    }
 
     &__row {
       display:flex;
@@ -46,6 +53,11 @@
     &__list {
       list-style-type: none;
       font-family: $font-main;
+
+      @media (max-width: 800px) {
+        width: 50%;
+      }
+      
     }
 
     &__item {
