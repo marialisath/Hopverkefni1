@@ -3,13 +3,13 @@
 
 h2 {
   font-family: $font-heading;
-  padding-bottom: $gutter *2;
+  padding-bottom: $gutter * 2;
 }
 
 .cards {
   display: flex;
   flex-wrap: wrap;
-  max-width:$max-width;
+  max-width: $max-width;
   margin: auto;
   padding-bottom: $gutter * 2;
 }
@@ -28,11 +28,11 @@ h2 {
     padding: $gutter;
     flex-grow: 1;
   }
-  
+
   &__text > p {
     padding-bottom: $gutter * 2;
   }
-  
+
   &__image {
     display: flex;
     max-width: 49%;
@@ -41,7 +41,7 @@ h2 {
 
 @media screen and (max-width: 800px){
     .card{
-    margin: 20px;
+    margin: $gutter;
     }
 }
 
@@ -52,11 +52,8 @@ h2 {
     &__image{
         max-width: 100%;
     }
-    &__text{
-        padding: auto;
+    &__text {
+      padding-left: 0px;
     }
   } 
 }
-
-
-
