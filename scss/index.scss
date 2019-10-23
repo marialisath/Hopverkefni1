@@ -13,7 +13,6 @@ h2 {
   margin: auto;
   padding-bottom: $gutter * 2;
 }
-
 .card {
   display: flex;
   justify-content: space-between;
@@ -38,6 +37,22 @@ h2 {
     display: flex;
     max-width: 49%;
   }
+}
+@media screen and (max-width: 800px){
+    .card{
+    margin: 20px;
+    }
+}
+@media screen and (max-width:500px){
+    .card{
+        justify-content: space-evenly;
+    
+    &__image{
+        max-width: 100%;
+    }
+    &__text{
+        padding: auto;
+    }
 }
 
 
