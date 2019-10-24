@@ -26,5 +26,10 @@
     &__image {
         padding-top: $gutter * 1.5;
     }
+
+    &__form {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
 }
 

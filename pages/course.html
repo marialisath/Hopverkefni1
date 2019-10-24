@@ -57,88 +57,78 @@
       </div>
     </div>
 
-    <div class="form">
-      <form class="form__col">
-        <legend class="form__heading">Almennar upplýsingar</legend>
-        <fieldset>
-          Nafn:
-          <label>
-            <input type="text" placeholder="Nafn" required />
-          </label>
-          <br />
-          Heimilisfang:
-          <label>
-            <input type="text" placeholder="Heimilisfang" required />
-          </label>
-          <br />
-          Aldur:
-          <label>
-            <input type="text" placeholder="Aldur" required />
-          </label>
-          <br />
-          Námskeið:
-          <select class="form__dropdown">
-            <option value="courses" disabled selected>-Veldu Námskeið-</option>
-            <option value="1">V0 - V1</option>
-            <option value="2">V2 - V4</option>
-            <option value="3">V5 - V7</option>
-            <option value="4">Krakkanámskeið</option>
-            <option value="5">Fjallaklifur</option>
-          </select>
-        </fieldset>
-      </form>
-      <form class="form__col">
-        <legend class="form__heading">Greiðsluupplýsingar</legend>
-        <fieldset>
-          Kortanúmer:
-          <label>
-            <input
-              class="form__textfield"
-              type="text"
-              placeholder="Kortanúmer"
-              required
-            />
-          </label>
-          <br />
-          Korthafi:
-          <label>
-            <input
-              class="form__textfield"
-              type="text"
-              placeholder="Korthafi"
-              required
-            />
-          </label>
-          <br />
-          Gildistími:
-          <br />
-          Mán:
-          <label>
-            <select class="form__dropdown">
-              <option value="01">01</option>
-              <option value="02">02</option>
-              <option value="03">03</option>
-              <option value="04">04</option>
-              <option value="05">05</option>
-              <option value="06">06</option>
-              <option value="07">07</option>
-              <option value="08">08</option>
-              <option value="09">09</option>
-              <option value="10">10</option>
-              <option value="11">11</option>
-              <option value="12">12</option>
-            </select>
-          </label>
-          Ár:
-          <label>
-            <select class="form__dropdown">
-              <option value="2019">2019</option>
-              <option value="2020">2020</option>
-              <option value="2021">2021</option>
-              <option value="2022">2022</option>
-            </select>
-          </label>
-        </fieldset>
+    <div class="course__form">
+      <form class="form">
+        <div class="form__column">
+          <fieldset class="form__fieldset">
+            <legend class="form__heading">Almennar upplýsingar</legend>
+            <div class="form__field">
+              <label class="form__label">Nafn:</label>
+              <input class="form__textfield" type="text" required />
+            </div>
+            <div class="form__field">
+              <label class="form__label">Heimilisfang:</label>
+              <input class="form__textfield" type="text" required />
+            </div>
+            <div class="form__field">
+              <label class="form__label">Aldur:</label>
+              <input class="form__textfield" type="text" required />
+            </div>
+            <div class="form__field">
+              <label class="form__label">Námskeið:</label>
+              <select class="form__dropdown--long">
+                <option value="namskeid" disabled selected
+                  >-Velja Námskeið-</option
+                >
+                <option value="1">V0 - V1</option>
+                <option value="2">V2 - V4</option>
+                <option value="3">V5 - V7</option>
+                <option value="4">Krakkanámskeið</option>
+                <option value="5">Fjallaklifur</option>
+              </select>
+            </div>
+          </fieldset>
+        </div>
+        <div class="form__column">
+          <fieldset class="form__fieldset">
+            <legend class="form__heading">Greiðsluupplýsingar</legend>
+            <div class="form__field">
+              <label class="form__label">Kortanúmer:</label>
+              <input class="form__textfield" type="text" required />
+            </div>
+            <div class="form__field">
+              <label class="form__label">Korthafi:</label>
+              <input class="form__textfield" type="text" required />
+            </div>
+            <div class="form__field">
+              <label class="form__label">Gildistími:</label>
+              <div class="form__expdate">
+                <label class="form__label">Mán</label>
+                <select class="form__dropdown">
+                  <option value="01">01</option>
+                  <option value="02">02</option>
+                  <option value="03">03</option>
+                  <option value="04">04</option>
+                  <option value="05">05</option>
+                  <option value="06">06</option>
+                  <option value="07">07</option>
+                  <option value="08">08</option>
+                  <option value="09">09</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                </select>
+                <label class="form__label">Ár</label>
+                <select class="form__dropdown">
+                  <option value="2019">2019</option>
+                  <option value="2020">2020</option>
+                  <option value="2021">2021</option>
+                  <option value="2022">2022</option>
+                </select>
+              </div>
+            </div>
+          </fieldset>
+        </div>
       </form>
     </div>
 
