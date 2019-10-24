@@ -12,14 +12,39 @@
         justify-content: space-between;
         flex-wrap: wrap;
         max-width: $max-width;
+        padding-bottom: $gutter * 2;
     }
 
     &__col {
         width: 32%;
+    }
 
-        @media(max-width: 500px) {
-            flex-direction: column;
-        }
+    &__title {
+        font-size: 2em;
+        font-family: $font-heading;
+        padding-top: $gutter;
+    }
+
+    &__description {
+        padding-top: $gutter;
+    }
+
+    &__price {
+        padding-top: $gutter;
+        font-family: $font-heading;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    &__price--3 {
+        padding-top: $gutter * 2;
+        font-family: $font-heading;
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    &__form {
+        padding-top: $gutter;
     }
 
     &__form form input {
