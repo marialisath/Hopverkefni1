@@ -21,7 +21,7 @@
     &__row {
       display:flex;
       width: 100%;
-      max-width: 1200px;
+      max-width: $max-width;
       margin: 0 auto;
     }
 
@@ -69,11 +69,21 @@
 
 @media screen and (max-width: 800px){
   .footer {
-    width: 100%;
     &__row {
-      margin: $gutter;
-      flex-direction: row;
+      max-width: $max-width;
+      padding-left: $gutter / 2;
+      padding-right: 20%;
+      flex-wrap: wrap;
+      
     }
   }
 }
 
+/*@media screen and (max-width: 500px){
+  .footer {
+    &__row {
+      padding-left: $gutter / 2;
+      flex-wrap: wrap;
+    }
+  }
+}*/
