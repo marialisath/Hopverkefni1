@@ -18,8 +18,9 @@
 
   &__text {
     height: 100%;
-    padding-bottom: $gutter * 18;
+    padding-bottom: 60%;
   }
+
   &__title {
     font-family: $font-heading;
     font-size: 48px;
@@ -51,9 +52,11 @@
     font-size: 24px;
     padding-bottom: $gutter;
   }
+
   &__label {
-    font-size: 21px;
+    font-size: 1.3em;
   }
+
   &__input {
     height: $gutter * 2;
     width: $gutter * 5;
@@ -76,34 +79,35 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .cart{
+  .cart {
     padding: $gutter;
   }
-  .content__row{
+  .content__row {
     flex-wrap: nowrap;
   }
-  .product{
-    &__image{
+  .product {
+    &__image {
       width: 50%;
     }
-    &__text{
+    &__text {
       padding-bottom: 0;
     }
-    &__price{
+    &__price {
       padding-top: $gutter;
     }
   }
-  .form{
+  .form {
     padding-left: $gutter;
   }
 }
+
 @media screen and (max-width: 500px) {
   .cart {
-    padding: $gutter /2;
+    padding: $gutter / 2;
 
     &__title {
       margin-top: 0;
-      padding: $gutter /2;
+      padding: $gutter / 2;
     }
   }
   .product {
@@ -121,7 +125,7 @@
       padding-top: $gutter / 2;
     }
   }
-  .form{
+  .form {
     padding: 20px;
   }
 }
