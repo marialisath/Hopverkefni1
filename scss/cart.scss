@@ -1,5 +1,4 @@
 @import "config";
-@import "button";
 
 .cart {
   max-width: $max-width;
@@ -12,6 +11,7 @@
     font-family: $font-heading;
   }
 }
+
 .product {
   display: flex;
   flex-wrap: wrap;
@@ -25,9 +25,11 @@
     font-family: $font-heading;
     font-size: 48px;
   }
+
   &__description {
     padding-top: $gutter;
   }
+
   &__content {
     padding: $gutter / 2;
   }
@@ -42,6 +44,7 @@
     border: 1px solid $color-black;
     border-radius: 3px;
   }
+
   &__image {
     margin-bottom: $gutter;
     display: flex;
@@ -49,28 +52,30 @@
 
   &__price {
     font-weight: bold;
-    font-size: 24px;
+    font-size: 1.5em;
     padding-bottom: $gutter;
   }
 
   &__label {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 
   &__input {
     height: $gutter * 2;
     width: $gutter * 5;
-    border: solid;
+    border: 1px solid $color-black;
     border-radius: 4px;
-    font-size: 18px;
+    font-size: 1em;
   }
 }
+
 .content__row {
   display: flex;
   align-items: flex-start;
   flex-wrap: wrap;
   margin-bottom: $gutter;
 }
+
 .form {
   max-width: 1200px;
   margin: 0 auto;
@@ -78,6 +83,7 @@
     padding-bottom: $gutter * 2;
   }
 }
+
 @media screen and (max-width: 800px) {
   .cart {
     padding: $gutter;
