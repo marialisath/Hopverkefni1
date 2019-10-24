@@ -13,33 +13,27 @@
 
   .footer {
     background-color: $color-blue;
-    height: 20em;
     width: 100%;
-    margin: auto;
-    @include row;
-    flex-flow: row;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     
     @media(max-width: 800px) {
-
-      &__row {
-        flex-direction: column;
-      }
+      
     }
 
     &__row {
       display:flex;
-      margin-bottom: $gutter;
-      @include row;
       flex-wrap: nowrap;
       width: 100%;
-      justify-content: space-evenly;
-      padding-right: 10em;
+      max-width: 1200px;
+      margin: 0 auto;
     }
 
 
     &__col {
-      padding-right: $gutter;
+      width: 25%;
+      margin: 0 10px;
     }
     
     &__title {
@@ -47,17 +41,13 @@
       color: $color-black;
       font-weight: bold;
       margin-top: $gutter;
-      margin-bottom: 1em;
+      margin-bottom: $gutter;
+      font-size: 1.5em;
     }
 
     &__list {
       list-style-type: none;
       font-family: $font-main;
-
-      @media (max-width: 800px) {
-        width: 50%;
-      }
-      
     }
 
     &__item {
@@ -77,8 +67,9 @@
     &__copyright {
       font-family: $font-main;
       font-size: 0.875em;
-      display: flex;
-      justify-content: center;
+      padding-bottom: 20px;
+      text-align: center;
+      
     }
 }
 

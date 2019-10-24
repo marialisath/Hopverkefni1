@@ -5,6 +5,7 @@
     padding: 1.250em;
     justify-content: center;
     font-family: $font-main;
+    
 
     &__row {
         display: flex;
@@ -15,7 +16,10 @@
 
     &__col {
         width: 32%;
-        margin: 20px 0;
+
+        @media(max-width: 500px) {
+            flex-direction: column;
+        }
     }
 
     &__form form input {

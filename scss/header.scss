@@ -13,7 +13,6 @@
 
 .header {
   background-color: $color-orange;
-  height: 10em;
 
   &__title {
     font-size: 3.5em;
@@ -49,11 +48,11 @@
     &:hover {
       color: $color-white;
     }
+  }
 
-    &__current {
-      text-decoration: underline;
-      display: inline-block;
-    }
+  &__item--current {
+    text-decoration: underline;
+    display: inline-block;
   }
 
   &__basket {
@@ -75,4 +74,28 @@
   &__basket--img {
     max-width: 20px;
   }
+}
+@media screen and (max-width: 800px){
+  .header__title{
+    padding-top: 0em;
+  }
+    .header__list{
+      padding-top: $gutter;
+    }
+  }
+
+
+@media screen and (max-width: 500px){
+  .header__title{
+    padding-top: 0em;
+  }
+    .header__menu{
+      padding-top: 0.5em;
+    }
+  
+  .header__basket{
+    justify-content: center;
+    padding-top: 0.7em;
+  }  
+
 }
