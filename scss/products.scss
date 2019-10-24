@@ -55,3 +55,27 @@
         height: 3em;
     }
 }
+
+@media screen and (max-width: 800px){
+    .products {
+        &__row {
+            flex-direction: row;
+        }
+
+        &__col {
+            width: 49%;
+        }
+    }
+}
+
+@media screen and (max-width: 500px){
+    .products {
+        &__row {
+            flex-direction: column;
+        }
+
+        &__col {
+            width: 100%;
+        }
+    }
+}
