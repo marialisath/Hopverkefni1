@@ -8,6 +8,7 @@
     margin-top: $gutter * 2;
     margin-bottom: $gutter;
     font-size: 2.5em;
+    font-family: $font-heading;
   }
 }
 
@@ -27,6 +28,18 @@
     font-size: 2em;
   }
 
+  &__textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 2em;
+    width: 25%;
+    font-size: 1em;
+    border: 1px solid $color-black;
+    border-radius: 3px;
+
+  }
+
   &__image {
     margin-bottom: $gutter;
   }
@@ -37,6 +50,7 @@
   }
 
   &__manage-cart {
+    display: flex;
 
   }
 }
