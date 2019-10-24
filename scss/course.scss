@@ -35,3 +35,16 @@
     }
 }
 
+@media screen and (max-width: 500px){
+    .course {
+        margin: $gutter;
+
+        &__form {
+            margin: $gutter;
+        }
+    }
+    .form {
+        flex-direction: column;
+    }
+}
+
