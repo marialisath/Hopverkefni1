@@ -6,9 +6,9 @@
 
 ## Leiðbeiningar um keyrslu
 
-Verkefnið er hægt að sækja hér: --link á github repo--
+Verkefnið er hægt að sækja [hér](https://github.com/marialisath/Hopverkefni1)
 
-Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina `npm install`
+Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina `npm install`.
 Svo þegar því er lokið er skipunin `npm run sass` keyrð.
 
 ```bash
@@ -20,18 +20,21 @@ Svo þegar því er lokið er skipunin `npm run sass` keyrð.
 
 ## Skipulag vefsíðu
 
-Í rót verkefnis er index.html skjalið. Öll önnur html skjöl eru geymd í /pages möppu.
-styles.scss er einnig geymt í rótinni. Það inniheldur nokkrar grunnskipanir og svo vísar það í önnur scss skjöl sem eru í möppu /scss. 
-
+Í rót verkefnis er `index.html` skjalið. Öll önnur html skjöl eru geymd í `/pages` möppu.
+`styles.scss` er einnig geymt í rótinni. Það inniheldur nokkrar grunnskipanir og svo vísar það í önnur scss skjöl sem eru í möppu `/scss`. Í þeirri möppu eru scss skjöl skipulögð eftir hlutverkum. Myndir eru geymdar í `img` möppu.
 
 ## Höfundar 
 Bjarki Grettisson             -       (bjg56@hi.is)
 
-María Lísa Thomasdóttir       -       (xxx@hi.is)    
+María Lísa Thomasdóttir       -       (mlt1@hi.is)    
 
 Telma Jóhannsdóttir           -       (tej2@hi.is)
 
-Upplýsingar um hvernig keyra skuli verkefnið
-Lýsingu á uppsetningu verkefnis, hvernig því er skipt í möppur, hvernig CSS er skipulagt og fleira sem á við
-Upplýsingar um alla sem unnu verkefnið
-Leyfilegt er að halda eftir þessari verkefnalýsingu en hún skal þá koma á eftir ykkar lýsingu
+
+## Myndir
+
+Myndir frá:
+
+* [Innkaupakörfu fengin á iconfinder](https://www.iconfinder.com/icons/216460/cart_icon)
+* [Aðrar myndir fengnar frá Unsplash](https://unsplash.com/photos/N4QTBfNQ8Nk)
+
