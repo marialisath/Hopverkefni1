@@ -8,8 +8,8 @@
     text-align: center;
     font-family: $font-main;
     font-size: 1em;
-    padding: $gutter / 2;
-    padding-right: $gutter * 8;
+    height: $gutter * 2;
+    width: $gutter * 12;
 
     &:hover {
       background-color: $color-orange;

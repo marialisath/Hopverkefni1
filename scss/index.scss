@@ -28,8 +28,16 @@
     padding: $gutter;
     flex-grow: 1;
   }
+   &__text2 {
+    font-family: $font-main;
+    flex-grow: 1;
+  }
 
   &__text > p {
+    padding-bottom: $gutter * 2;
+    font-size: 24px; 
+  }
+  &__text2 > p {
     padding-bottom: $gutter * 2;
     font-size: 24px; 
   }
