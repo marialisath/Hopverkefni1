@@ -9,6 +9,13 @@
     font-size: 1em;
     padding: $gutter / 2;
     padding-right: $gutter * 2;
+    text-align: center;
+
+    &:hover {
+      background-color: $color-orange;
+      color: $color-white;
+      transition: $transition;
+    }
   }
 
 .products__button {
