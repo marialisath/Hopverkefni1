@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-between;
   max-width: $max-width;  
-  margin-bottom: $gutter * 3;
+  margin-bottom: $gutter;
 
   &__heading {
       font-family: $font-heading;

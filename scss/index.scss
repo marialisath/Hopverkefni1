@@ -1,11 +1,6 @@
 @import "config";
 @import "button";
 
-.card__title {
-  font-family: $font-heading;
-  padding-bottom: $gutter * 2;
-  font-size: 36px;
-}
 
 .cards {
   display: flex;
@@ -23,15 +18,28 @@
   &--reversed {
     flex-direction: row-reverse;
   }
-
+  &__title {
+    font-family: $font-heading;
+    padding-bottom: $gutter * 2;
+    font-size: 36px;
+  }
   &__text {
     font-family: $font-main;
     padding: $gutter;
     flex-grow: 1;
   }
+   &__text2 {
+    font-family: $font-main;
+    flex-grow: 1;
+  }
 
   &__text > p {
     padding-bottom: $gutter * 2;
+    font-size: 24px; 
+  }
+  &__text2 > p {
+    padding-bottom: $gutter * 2;
+    font-size: 24px; 
   }
 
   &__image {
@@ -53,6 +61,7 @@
     
     &__image{
         max-width: 100%;
+        padding-top: $gutter * 2;
     }
     &__text {
       padding-left: 0px;
