@@ -6,7 +6,7 @@
 
 ## Leiðbeiningar um keyrslu
 
-Verkefnið er hægt að sækja [hér](https://github.com/marialisath/Hopverkefni1)
+Verkefnið er hægt að sækja [hér.](https://github.com/marialisath/Hopverkefni1)
 
 Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina `npm install`.
 Svo þegar því er lokið er skipunin `npm run sass` keyrð.
@@ -21,7 +21,7 @@ Svo þegar því er lokið er skipunin `npm run sass` keyrð.
 ## Skipulag vefsíðu
 
 Í rót verkefnis er `index.html` skjalið. Öll önnur html skjöl eru geymd í `/pages` möppu.
-`styles.scss` er einnig geymt í rótinni. Það inniheldur nokkrar grunnskipanir og svo vísar það í önnur scss skjöl sem eru í möppu `/scss`. Í þeirri möppu eru scss skjöl skipulögð eftir hlutverkum. Myndir eru geymdar í `img` möppu.
+`styles.scss` er einnig geymt í rótinni. Það inniheldur nokkrar grunnskipanir og vísar svo í önnur scss skjöl sem eru í möppu `/scss`. Í þeirri möppu eru scss skjöl skipulögð eftir hlutverkum. Myndir eru geymdar í `/img` möppu.
 
 ## Höfundar 
 Bjarki Grettisson             -       (bjg56@hi.is)
