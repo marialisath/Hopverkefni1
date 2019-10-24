@@ -1,15 +1,15 @@
 
 # Hópverkefni 1
 
-Þetta verkefni felst í því að smíða vefsíðu fyrir "Prílihúsið" samkvæmt fyrirmynd.
+Þetta verkefni felst í því að smíða vefsíðu fyrir _Prílihúsið_ samkvæmt fyrirmynd.
 
 
 ## Leiðbeiningar um keyrslu
 
 Verkefnið er hægt að sækja hér: --link á github repo--
 
-Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina 'npm install'
-Svo þegar því er lokið er skipunin 'npm run sass' keyrð.
+Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina `npm install`
+Svo þegar því er lokið er skipunin `npm run sass` keyrð.
 
 ```bash
 > cd /verkefni
