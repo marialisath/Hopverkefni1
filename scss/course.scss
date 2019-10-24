@@ -1,68 +1,70 @@
 @import "config";
 
 .course {
-    max-width:$max-width;
-    margin: auto;
-    padding-bottom: $gutter * 2;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  max-width: $max-width;
+  margin: auto;
+  padding-bottom: $gutter * 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
-    &__col {
-        max-width: (($max-width/2) - ($gutter/2));
-    }
-    
-    &__title {
-        padding-top: $gutter * 2;
-        padding-bottom: $gutter *2;
-        font-size: 2.5em;
-        font-weight: bold;
-        font-family: $font-heading;
-    }
-    
-    &__text {
-        font-family: $font-main;
-        font-size: 1.5em;
-    }
-    
+  &__col {
+    max-width: (($max-width/2) - ($gutter/2));
+  }
+
+  &__title {
+    padding-top: $gutter * 2;
+    padding-bottom: $gutter * 2;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: $font-heading;
+  }
+
+  &__text {
+    font-family: $font-main;
+    font-size: 1.5em;
+  }
+
+  &__image {
+    padding-top: $gutter * 1.5;
+  }
+
+  &__form {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .course {
+    margin: $gutter;
+
     &__image {
-        padding-top: $gutter * 1.5;
+      width: 50%;
     }
 
     &__form {
-        max-width: 1200px;
-        margin: 0 auto;
+      margin: $gutter;
     }
+  }
 }
 
-@media screen and (max-width: 800px){
-    .course {
-        margin: $gutter;
-        
-        &__image {
-            width: 50%;
-        }
+@media screen and (max-width: 500px) {
+  .course {
+    margin: $gutter;
 
-        &__form {
-            margin: $gutter;
-        }
+    &__form {
+      margin: $gutter;
     }
+
+    &__image {
+      width: 100%;
+    }
+  }
+  .form {
+    flex-direction: column;
+    &__column:nth-child(2) {
+      padding-left: 0;
+    }
+  }
 }
-
-@media screen and (max-width: 500px){
-    .course {
-        margin: $gutter;
-
-        &__form {
-            margin: $gutter;
-        }
-
-        &__image {
-            width: 100%;
-        }
-    }
-    .form {
-        flex-direction: column;
-    }
-}
-
