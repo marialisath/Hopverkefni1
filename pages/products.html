@@ -7,21 +7,35 @@
 
     <link rel="stylesheet" href="../grid.css" />
     <link rel="stylesheet" href="../styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="header">
       <h1 class="header__title">Prílihúsið</h1>
       <div class="header__menu">
         <ul class="header__list">
-          <li class="header__item"><a href="../index.html" class="header__link">Forsíða</a></li>
-          <li class="header__item--current"><a href="products.html" class="header__link">Vörur</a></li>
-          <li class="header__item"><a href="course.html" class="header__link">Námskeið</a></li>
-          <li class="header__item"><a href="staff.html" class="header__link">Starfsfólk</a></li>
+          <li class="header__item">
+            <a href="../index.html" class="header__link">Forsíða</a>
+          </li>
+          <li class="header__item--current">
+            <a href="products.html" class="header__link">Vörur</a>
+          </li>
+          <li class="header__item">
+            <a href="course.html" class="header__link">Námskeið</a>
+          </li>
+          <li class="header__item">
+            <a href="staff.html" class="header__link">Starfsfólk</a>
+          </li>
         </ul>
         <div class="header__basket">
-          <img class="header__basket--img" src="../img/cart.svg">
+          <img class="header__basket--img" src="../img/cart.svg" />
           <a class="header__basket--link" href="cart.html">Karfa(6)</a>
         </div>
       </div>
@@ -30,108 +44,159 @@
     <div class="products">
       <div class="products__row">
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/Backpack.jpg" />
+          <div class="products__image">
+            <img src="../img/Backpack.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Bakpoki</h2>
+            <p class="products__description">
+              Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.
+            </p>
+            <h3 class="products__price">49.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Bakpoki</h2>
-                  <p class="products__description">Þú getur geymt allt sem þú þarft fyrir klifrið í þessum bakpoka.</p>
-                  <h3 class="products__price">49.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/chalkbag.jpg" />
+          <div class="products__image">
+            <img src="../img/chalkbag.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Kalkpoki</h2>
+            <p class="products__description">
+              Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.
+            </p>
+            <h3 class="products__price">4.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Kalkpoki</h2>
-                  <p class="products__description">Kalkaðu hendurnar áður en þú verður kalkaður í hausnum.</p>
-                  <h3 class="products__price">4.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/climbingrope.jpg" />
+          <div class="products__image">
+            <img src="../img/climbingrope.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Klifurlína</h2>
+            <p class="products__description">
+              Farðu upp öll fjöll með þessari 200m klifurlínu.
+            </p>
+            <h3 class="products__price--3">39.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Klifurlína</h2>
-                  <p class="products__description">Farðu upp öll fjöll með þessari 200m klifurlínu.</p>
-                  <h3 class="products__price">39.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/shoes.jpg" />
+          <div class="products__image">
+            <img src="../img/shoes.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Klifurskór</h2>
+            <p class="products__description">
+              Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta
+              lóðrétta veggi.
+            </p>
+            <h3 class="products__price">19.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Klifurskór</h2>
-                  <p class="products__description">Klifurskór með nanótækni sem gerir þér kleift að klifra upp slétta lóðrétta veggi.</p>
-                  <h3 class="products__price">19.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/Dring.jpg" />
+          <div class="products__image">
+            <img src="../img/Dring.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Karabína 10 stk.</h2>
+            <p class="products__description">
+              Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það
+              er meira en 20 snorlax pókemonar.
+            </p>
+            <h3 class="products__price">10.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Karabína 10 stk.</h2>
-                  <p class="products__description">Þessi karbína hefur styrkleika til þess að halda á 10 tonnum. Það er meira en 20 snorlax pókemonar.</p>
-                  <h3 class="products__price">10.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
         <div class="products__col">
-            <div class="products__image">
-              <img src="../img/Harness.jpg" />
+          <div class="products__image">
+            <img src="../img/Harness.jpg" />
+          </div>
+          <div class="products__text">
+            <h2 class="products__title">Klifurbelti</h2>
+            <p class="products__description">
+              Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að
+              tengjast símanum þínum.
+            </p>
+            <h3 class="products__price">1.999.900 kr.-</h3>
+            <div class="products__form">
+              <form>
+                <label class="products__label">Fjöldi:</label><br />
+                <input
+                  type="number"
+                  name="Fjöldi"
+                  min="1"
+                  value="1"
+                  required=""
+                />
+                <button class="products__button">Setja í körfu</button>
+              </form>
             </div>
-              <div class="products__text">
-                <h2>Klifurbelti</h2>
-                  <p class="products__description">Hágæða klifurbelti með nanótækni og innbyggt bluetooth til þess að tengjast símanum þínum.</p>
-                  <h3 class="products__price">1.999.900 kr.-</h3>
-                  <div class="products__form">
-                    <form>
-                      <label class="products__label">Fjöldi:</label></br>
-                        <input type="number" name="Fjöldi" min="1" value="1" required="">
-                        <button class="products__button">Setja í körfu</button>
-                    </form>
-                  </div>
-              </div>
+          </div>
         </div>
-      </div> 
+      </div>
     </div>
 
     <div class="footer">
@@ -139,45 +204,83 @@
         <div class="footer__col">
           <h2 class="footer__title">Vöruflokkar</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Nauðsynjavörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Frábærar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Ómissandi vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Ótrúlegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Magnaðar vörur</a></li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Nauðsynjavörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Frábærar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Ómissandi vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Ótrúlegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Magnaðar vörur</a>
+            </li>
           </ul>
         </div>
         <div class="footer__col">
           <h2 class="footer__title">Vöruflokkar</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Trylltar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Geggjaðar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Svakalegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Fáránlegar vörur</a></li>
-            <li class="footer__item"><a href="products.html" class="footer__link">Klikkaðar vörur</a></li>
-            </ul>
-          </div>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Trylltar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Geggjaðar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Svakalegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Fáránlegar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Klikkaðar vörur</a>
+            </li>
+          </ul>
+        </div>
         <div class="footer__col">
           <h2 class="footer__title">Námskeið</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="course.html" class="footer__link">V0 - V1 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">V2 - V4 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">V5 - V7 námskeið</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">Fjallaklifur námskeið</a></li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V0 - V1 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V2 - V4 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">V5 - V7 námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link"
+                >Fjallaklifur námskeið</a
+              >
+            </li>
           </ul>
         </div>
         <div class="footer__col">
           <h2 class="footer__title">Síður</h2>
           <ul class="footer__list">
-            <li class="footer__item"><a href="products.html" class="footer__link">Allar vörur</a></li>
-            <li class="footer__item"><a href="staff.html" class="footer__link">Starfsfólk</a></li>
-            <li class="footer__item"><a href="course.html" class="footer__link">Námskeið</a></li>
-            <li class="footer__item"><a href="cart.html" class="footer__link">Karfa</a></li>
+            <li class="footer__item">
+              <a href="products.html" class="footer__link">Allar vörur</a>
+            </li>
+            <li class="footer__item">
+              <a href="staff.html" class="footer__link">Starfsfólk</a>
+            </li>
+            <li class="footer__item">
+              <a href="course.html" class="footer__link">Námskeið</a>
+            </li>
+            <li class="footer__item">
+              <a href="cart.html" class="footer__link">Karfa</a>
+            </li>
           </ul>
         </div>
       </div>
       <div class="footer__copyright">
         © 2019 Prílihúsið
       </div>
-  </div>
+    </div>
   </body>
 </html>
