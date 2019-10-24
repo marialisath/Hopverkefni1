@@ -38,3 +38,21 @@
     background-color: $color-blue;
   }
 }
+.cart__button {
+  background-color: $color-blue;
+  color: $color-black;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  font-family: $font-main;
+  font-size: 1em;
+  height: $gutter * 2;
+  width: $gutter * 12;
+  margin: 0 auto;
+
+  &:hover {
+    background-color: $color-orange;
+    color: $color-white;
+    transition: $transition;
+  }
+}
