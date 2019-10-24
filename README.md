@@ -11,12 +11,12 @@ Verkefnið er hægt að á í á --link á github repo--
 Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina 'npm install'
 Svo þegar því er lokið er skipunin 'npm run sass' keyrð.
 
-'''bash
+```bash
 > cd /verkefni
 > npm install
 
 > npm run sass
-'''
+```
 
 ## Skipulag vefsíðu
 
