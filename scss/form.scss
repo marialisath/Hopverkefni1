@@ -1,14 +1,11 @@
 @import "config";
 
 .form {
-  max-width: $max-width;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
   justify-content: space-between;
-  max-width: $max-width;
-  
-  &__col {
-    border: none;
-  }
+  max-width: $max-width;  
+  margin-bottom: $gutter * 3;
 
   &__heading {
       font-family: $font-heading;
@@ -17,5 +14,63 @@
       margin-bottom: $gutter;
   }
 
+  &__column {
+    flex: 1;
+  }
+
+  &__column:nth-child(2) {
+    padding-left: $gutter; 
+  }
+
+  &__fieldset {
+    border: none;
+  }
+
+  &__textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 3em;
+    width: 100%;
+    border: 1px solid $color-black;
+    border-radius: 3px;
+  }
+
+  &__field {
+    display: flex;
+    margin: $gutter;
+    margin-left: 0;
+  }
+
+  &__label {
+    width: 30%;
+  }
+
+  &__dropdown {
+    background-color: $color-white;
+    border: 1px solid $color-black;
+    border-radius: 3px;
+    height: 3em;
+    display: flex;
+    width: 20%;
+  }
+
+  &__dropdown--long {
+    background-color: $color-white;
+    border: 1px solid $color-black;
+    border-radius: 3px;
+    height: 3em;
+    display: flex;
+    width: 100%;
+  }
+
+
+
+  &__expdate {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
 }
+
 

@@ -1,7 +1,7 @@
 @import "config";
 @import "button";
 
-h2 {
+.card__title {
   font-family: $font-heading;
   padding-bottom: $gutter *2;
 }
