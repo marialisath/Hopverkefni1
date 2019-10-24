@@ -10,6 +10,7 @@
   font-size: 1em;
   height: $gutter * 2;
   width: $gutter * 12;
+  justify-content: center;
 
   &:hover {
     background-color: $color-orange;

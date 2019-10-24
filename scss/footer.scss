@@ -67,3 +67,13 @@
     }
 }
 
+@media screen and (max-width: 800px){
+  .footer {
+    width: 100%;
+    &__row {
+      margin: $gutter;
+      flex-direction: row;
+    }
+  }
+}
+
