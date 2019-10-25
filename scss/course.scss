@@ -40,6 +40,12 @@
     margin: $gutter;
 
     &__image {
+      padding-left: $gutter / 2;
+    }
+
+    &__col {
+      display: flex;
+      flex-flow: wrap;
       width: 50%;
     }
 
