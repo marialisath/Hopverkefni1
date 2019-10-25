@@ -49,6 +49,7 @@
   height: $gutter * 2;
   width: $gutter * 12;
   margin: 0 auto;
+  transition: $transition;
 
   &:hover {
     background-color: $color-orange;
