@@ -15,6 +15,9 @@
       padding-top: 150%;
       content: "";
     }
+    &:hover {
+      transform: rotateY(180deg);
+    }
   }
 
   &__row {
@@ -64,9 +67,7 @@
     height: 100%;
   }
 
-  &__container:hover {
-    transform: rotateY(180deg);
-  }
+  
 
   &__content {
     display: flex;
