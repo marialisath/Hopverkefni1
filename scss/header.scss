@@ -40,7 +40,6 @@
     color: inherit;
     font-family: $font-main;
     text-transform: uppercase;
-    transition: $transition;
   }
 
   &__item {
@@ -54,7 +53,6 @@
   &__item--current {
     text-decoration: underline;
     display: inline-block;
-    transition: $transition;
   }
 
   &__basket {
