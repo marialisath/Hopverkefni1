@@ -79,8 +79,8 @@
   .header__title {
     padding-top: 0em;
   }
-  .header__list {
-    padding-top: $gutter;
+  .header__menu{
+    max-width: 50%;
   }
 }
 
@@ -91,7 +91,6 @@
   .header__menu {
     padding-top: 0.2em;
   }
-
   .header__basket {
     justify-content: center;
     padding-top: 0.6em;
