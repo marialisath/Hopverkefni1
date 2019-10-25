@@ -8,7 +8,7 @@
 
 Verkefnið er hægt að sækja [hér.](https://github.com/marialisath/Hopverkefni1)
 
-Vefsíðuna er hægt að sjá á `link á vefsíðu`
+Vefsíðuna er einnig hægt að sjá [hérna.] (https://notendur.hi.is/~bjg56/vefforritun/hopverkefni-1/)
 
 Til þess að keyra verkefnið þarf að fara í rót verkefnis og keyra skipunina `npm install`.
 Svo þegar því er lokið er skipunin `npm run sass` keyrð.
