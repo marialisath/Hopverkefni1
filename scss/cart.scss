@@ -113,6 +113,7 @@
     }
   }
 }
+// Vesen með þetta, það kemur ekki upp þó stærðin sé 500px, ef við eyðum @media 800px þá sér maður það
 @media screen and (max-width: 500px) {
   .cart {
     padding: $gutter / 2;
