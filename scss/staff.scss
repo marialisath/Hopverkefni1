@@ -1,75 +1,74 @@
 @import "config";
 
 .staff {
-    max-width: $max-width;
+  max-width: $max-width;
 
-    &__row {
-        margin-top: $gutter * 2;
-        margin-bottom: $gutter * 2;
-        margin-left: $gutter * 2;
+  &__row {
+    margin-top: $gutter * 2;
+    margin-bottom: $gutter * 2;
+    margin-left: $gutter * 2;
+  }
+
+  &__col {
+    margin-bottom: $gutter * 2;
+  }
+
+  &__container {
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+
+    &::before {
+      display: block;
+      padding-top: 150%;
+      content: "";
     }
+  }
 
-    &__col {
-         margin-bottom: $gutter * 2;
-    }
+  &__card {
+    position: absolute;
+    transition: transform $transition;
+    transform-style: preserve-3d;
 
-    &__container {
-        position: relative;
-        overflow: hidden;
-        width: 50%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  }
 
-        &::before {
-            display: block;
-            padding-top: 150%;
-            content: "";
-        }
-    }
+  &__front {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
 
-    &__card {
-        position: absolute;
-        transition: transform $transition;
-        transform-style: preserve-3d;
+  &__back {
+    //position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+  }
 
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-    }
+  &:hover &__card {
+    transform: rotateY(180deg);
+  }
 
-    &__front {
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-    }
+  &__content {
+    display: flex;
+    height: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    &__back {
-        //position: absolute;
-        width: 100%;
-        height: 100%;
-        backface-visibility: hidden;
-        transform: rotateY(180deg);
-    }
-
-    &:hover &__card {
-        transform: rotateY(180deg);
-    }
-
-    &__content {
-        display: flex;
-        height: 100%;
-        font-size: 1.5em;
-        text-align: center;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    &__title {
-        margin-bottom: $gutter;
-        font-family: $font-heading;
-        font-size: 2.25em;
-        font-weight: bold;
-    }
+  &__title {
+    margin-bottom: $gutter;
+    font-family: $font-heading;
+    font-size: 2.25em;
+    font-weight: bold;
+  }
 }
-

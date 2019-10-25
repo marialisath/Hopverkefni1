@@ -1,6 +1,6 @@
 // TODO stillingar hér
 $font-heading: "Oswald", sans-serif;
-$font-main: 'Open Sans', sans-serif;
+$font-main: "Open Sans", sans-serif;
 
 // Litir
 $color-black: #000000;
@@ -14,7 +14,5 @@ $gutter: 20px;
 $transition: 200ms ease-in-out;
 
 @mixin row() {
-    display: flex;
-  }
-
-  
+  display: flex;
+}

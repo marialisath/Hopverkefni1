@@ -1,80 +1,78 @@
 @import "config";
 
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  *,
-  *::before,
-  *::after {
-    box-sizing: inherit;
-  }
-
-  .footer {
-    background-color: $color-blue;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-    &__row {
-      display:flex;
-      width: 100%;
-      max-width: $max-width;
-      margin: 0 auto;
-    }
-
-    &__col {
-      width: 25%;
-      margin: 0 10px;
-    }
-    
-    &__title {
-      font-family: $font-main;
-      color: $color-black;
-      font-weight: bold;
-      margin-top: $gutter;
-      margin-bottom: $gutter;
-      font-size: 1.5em;
-    }
-
-    &__list {
-      list-style-type: none;
-      font-family: $font-main;
-    }
-
-    &__item {
-      margin-bottom: $gutter * 0.5;
-    }
-    
-    &__link {
-      color: $color-white;
-      transition: color $transition;
-      text-decoration: none;
-      
-      &:hover {
-        color: $color-black;
-      }
-    }
-    
-    &__copyright {
-      font-family: $font-main;
-      font-size: 0.875em;
-      padding-bottom: 20px;
-      text-align: center;
-      
-    }
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (max-width: 800px){
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.footer {
+  background-color: $color-blue;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  &__row {
+    display: flex;
+    width: 100%;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  &__col {
+    width: 25%;
+    margin: 0 10px;
+  }
+
+  &__title {
+    font-family: $font-main;
+    color: $color-black;
+    font-weight: bold;
+    margin-top: $gutter;
+    margin-bottom: $gutter;
+    font-size: 1.5em;
+  }
+
+  &__list {
+    list-style-type: none;
+    font-family: $font-main;
+  }
+
+  &__item {
+    margin-bottom: $gutter * 0.5;
+  }
+
+  &__link {
+    color: $color-white;
+    transition: color $transition;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-black;
+    }
+  }
+
+  &__copyright {
+    font-family: $font-main;
+    font-size: 0.875em;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
   .footer {
     &__row {
       max-width: $max-width;
       padding-left: $gutter / 2;
       padding-right: 20%;
       flex-wrap: wrap;
-      
     }
   }
 }
