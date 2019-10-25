@@ -63,8 +63,6 @@
   }
   .form {
     flex-direction: column;
-    &__column:nth-child(2) {
-      padding-left: 0;
-    }
+    
   }
 }

@@ -65,23 +65,3 @@
     text-align: center;
   }
 }
-
-@media screen and (max-width: 800px) {
-  .footer {
-    &__row {
-      max-width: $max-width;
-      padding-left: $gutter / 2;
-      padding-right: 20%;
-      flex-wrap: wrap;
-    }
-  }
-}
-
-/*@media screen and (max-width: 500px){
-  .footer {
-    &__row {
-      padding-left: $gutter / 2;
-      flex-wrap: wrap;
-    }
-  }
-}*/
