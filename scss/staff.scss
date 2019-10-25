@@ -89,3 +89,17 @@
     font-size: 2.25em;
   }
 }
+
+@media screen and (max-width: 500px) {
+  .staff {
+    max-width: $max-width;
+    &__row {
+      flex-direction: column;
+    }
+
+    &__col {
+      width: 100%;
+    }
+  }
+
+}
