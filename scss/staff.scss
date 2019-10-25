@@ -5,6 +5,7 @@
     margin: 0 auto;
     padding-right: $gutter;
     padding-left: $gutter;
+    overflow: hidden;
     
     &__row {
       display: flex;
@@ -67,7 +68,6 @@
 
       font-family: $font-heading;
       font-size: 2.25em;
-      font-weight: 600;
     }
 
 }
